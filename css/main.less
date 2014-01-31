@@ -693,6 +693,13 @@ code {
 		background-repeat: no-repeat;
 		background-size: @siteWidth auto;
 	}
+	
+	&.error404-1 {
+		background-image: url("/img/tumbleweed.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: @siteWidth auto;
+	}
 
 	.headline {
 		margin: .5em 0 0;
@@ -737,6 +744,9 @@ code {
 		@media (min-width: @breakpointMedium) {
 			padding: 0 25px;
 		}
+	}
+	.error404-2 {
+		text-align: center;
 	}
 
 	h2 {
@@ -990,4 +1000,15 @@ code {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.error404 {
+	text-align: center;	
+	h4 {
+		color: @red;
+	}
+}
+
+.move { 
+	margin-left: 15px ! important;
 }
