@@ -586,6 +586,12 @@ code {
   background-repeat: no-repeat;
   background-size: 900px auto;
 }
+.bigStripe.error404-1 {
+  background-image: url("/img/tumbleweed.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 900px auto;
+}
 .bigStripe .headline {
   margin: .5em 0 0;
   font-size: 1.6rem;
@@ -631,6 +637,9 @@ code {
   .headingStripe .sheet {
     padding: 0 25px;
   }
+}
+.headingStripe .error404-2 {
+  text-align: center;
 }
 .headingStripe h2 {
   display: inline-block;
@@ -861,4 +870,13 @@ code {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.error404 {
+  text-align: center;
+}
+.error404 h4 {
+  color: #d41440;
+}
+.shiftLeft {
+  margin-left: 15px ! important;
 }
